@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    margin: auto;
+    background: url("../../assets/fondo/shadow.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

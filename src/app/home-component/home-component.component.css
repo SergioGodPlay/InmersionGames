@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    margin: auto;
+    background: url("../../assets/fondo/shadow.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container-slider{
+    margin: 2% 7%;
+
+    box-shadow: 0 0 0 10px #fff
+                0 15px 50px;
+    position: relative;   
+    overflow: hidden;
+    display: flex;
+    float: left;
+}
+
+.form__search{
+    position: relative;
+    max-width: 430px;
+    display: inline-block;
+    margin: 55px 20px;
+    clear: right;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.form-group{
+    padding: 10px;
+    transition: all .9s ease;
+}
+
+.form-input:hover{
+    transform: translateX(.5em);
+}
+
+.form-select{
+    cursor: pointer;
+}
+
+.slider{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+.slider__section{
+    padding: 10px;
+    width: 220px;
+    height: auto;
+    transition: all .9s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.slider__section:hover{
+    transform: scale(1.09);
+}
+
+.slider__img{
+    border-radius:5px;
+    border: 1px solid #999;
+    width:200px;
+    height:200px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    z-index: 10;
+}
+
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slider__btn:hover{
+    background: #fff;
+}
+
+.slider__btn--left{
+    left: 17px;
+}
+
+.slider__btn--right{
+    right: 10px;
+}
+
+td{
+    position: relative;
+}
+
+.ultimos__agregados{
+    margin-left: 40px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    display: inline-block;
+}
+
+.container_titulos{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
+
+.titulos_juegos{
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.fondo_imagen_titulos{
+    width: 1.8em;
+    height: auto;
+    position: absolute;
+}
+
+.etiqueta{
+    position: absolute;
+    top: 15px;
+    left: -90px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(14, 64, 228, 0.8);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3px 5px;
+    font-size: 0.7em;
+    visibility: hidden;
+}
+
+.container__imagenes{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    float: left;  
+}
+
+.container__playstation__img{
+    border: 1px solid #999;
+    width:150px;
+    height:150px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.container__playstation__2__img{
+    border: 1px solid #999;
+    width:150px;
+    height:200px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}  
+
+.container__descripcion{
+    margin: 10px;
+    width: 350px;
+    height: 150px;
+    
+}
+
+.container__descripcion a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.container__descripcion a:hover{
+    text-decoration: underline;
+}
+
+
+.container__switch__img{
+    border: 1px solid #999;
+    width:150px;
+    height:230px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.table__games{
+    border: 1px solid black;
+    margin-left: 40px;
+    border-radius: 20px !important;
+}
+
