@@ -12,22 +12,28 @@ body{
     background-size: cover;
 }
 
+.container-body{
+    max-width: 80%;
+    background-color: rgb(49,49,49);
+    margin: auto;
+    box-shadow: 0px 8px 11px 9px #000000;
+}
 
 .container-slider{
-    margin: 2% 7%;
+    margin-left: 100px;
+    width: 80%;
 
     box-shadow: 0 0 0 10px #fff
                 0 15px 50px;
-    position: relative;   
+    position:sticky;   
+    display: inline-block;
     overflow: hidden;
-    display: flex;
-    float: left;
 }
 
 .form__search{
     position: relative;
-    max-width: 430px;
-    display: inline-block;
+    width: max-content;
+    display: flex;
     margin: 55px 20px;
     clear: right;
     padding: 15px;
@@ -49,7 +55,7 @@ body{
 
 .slider{
     display: flex;
-    max-width: 900px;
+    width: 90%;
     margin: auto;
 }
 
@@ -81,29 +87,39 @@ body{
     position: absolute;
     width: 40px;
     height: 40px;
-    background: rgba(255, 255, 255, 0.7);
-    top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
     font-weight: bold;
     font-family: monospace;
-    text-align: center;
     border-radius: 50%;
     cursor: pointer;
+    z-index: 50;
+    transition: all .3s ease-in-out;
+    opacity: 0.7;
+    top: 50%;
 
 }
 
 .slider__btn:hover{
-    background: #fff;
+    border: 1px solid white;
+    transform: scale(1.2);
+    top: 42%;
+    opacity: 1;
 }
 
 .slider__btn--left{
-    left: 17px;
+    left: 7%;
+    margin: auto;
+    text-align: center;
 }
 
+
 .slider__btn--right{
-    right: 10px;
+    right: 8px;
+    margin: auto;
+    text-align: center;
 }
+
 
 td{
     position: relative;
@@ -114,6 +130,7 @@ td{
     font-family: 'Permanent Marker', cursive;
     font-size: 2em;
     display: inline-block;
+    color: #fff;
 }
 
 .container_titulos{
@@ -128,6 +145,7 @@ td{
     font-size: 1.8em;
     font-weight: bold;
     margin-left: 40px;
+    color: #fff;
 }
 
 .fondo_imagen_titulos{
@@ -164,6 +182,13 @@ td{
     background-size: 100% 100%;
     background-repeat:no-repeat;
     background-size: cover;
+    transition: all .3s ease-in-out;
+}
+
+.container__playstation__img:hover{
+
+    border: 1px solid black;
+    transform: scale(1.03);
 }
 
 .container__playstation__2__img{
@@ -173,7 +198,14 @@ td{
     background-size: 100% 100%;
     background-repeat:no-repeat;
     background-size: cover;
+    transition: all .3s ease-in-out;
 }  
+
+.container__playstation__2__img:hover{
+
+    border: 1px solid black;
+    transform: scale(1.03);
+}
 
 .container__descripcion{
     margin: 10px;
@@ -200,6 +232,14 @@ td{
     background-size: 100% 100%;
     background-repeat:no-repeat;
     background-size: cover;
+    transition: all .3s ease-in-out;
+    
+}
+
+.container__switch__img:hover{
+
+    border: 1px solid black;
+    transform: scale(1.03);
 }
 
 .table__games{
@@ -207,4 +247,5 @@ td{
     margin-left: 40px;
     border-radius: 20px !important;
 }
+
 
