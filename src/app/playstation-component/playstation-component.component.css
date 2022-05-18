@@ -11,3 +11,212 @@ body{
     background-position: center;
     background-size: cover;
 }
+
+.container-body{
+    max-width: 87%;
+    background: #232323;
+    margin: auto;
+    box-shadow: 0px 8px 11px 9px #000000;
+    margin-top: 20px;
+}
+
+.juegos__ps1{
+    color: #fff;
+    font-size: 1.4em;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container__letras{
+    width: 50%;
+    height: 8%;
+    background: #232323;
+    margin: auto;
+    display: flexbox;   
+    border: 1px solid #fff;
+}
+
+.container__letras__titulo{
+    display: inline-block;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo__letra{
+    font-size: 1.7em;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.container__glosario{
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 4%;
+    margin-right: 4%; 
+}
+
+.container__glosario > ul{
+    text-align: center;
+    text-decoration: none;
+    list-style: none; 
+}
+
+.table__descargados{
+    width: 60%;
+    height: auto;
+    background: #232323;
+    display: flexbox;
+    margin-top: 20px; 
+    border: 1px solid #fff;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.table__descargados td{
+    padding: 2%;
+}
+
+.titulo__descargados{
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold; 
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.container__descargados{
+    display: block;
+    margin: auto;
+}
+
+.container__descargados ul{
+    margin-left: 7%;
+    color: #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.container__descargados ul li a{
+    color: #fff;
+    text-decoration: none;   
+}
+
+.container__descargados ul li:hover{
+    text-shadow: 0 0 5px #FFF, 0 0 5px #FFF, 0 0 7px #FFF, 0 0 10px #b41414, 0 0 15px #c41414, 0 0 20px #ce1919, 0 0 27px #8f0b0b, 0 0 33px #c71d11;
+    transform: scale(1.03);
+}
+
+.container__glosario ul > li{
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+    margin: auto;
+    font-size: 1.4em;
+    
+}
+
+.container__glosario ul li:hover{
+    text-shadow: 0 0 5px #FFF, 0 0 5px #FFF, 0 0 7px #FFF, 0 0 10px #b41414, 0 0 15px #c41414, 0 0 20px #ce1919, 0 0 27px #8f0b0b, 0 0 33px #c71d11;
+    transform: scale(1.4);
+}
+
+.container__glosario ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+hr{
+    color: #fff;
+}
+
+.table__games{
+    border: 1px solid #fff;
+    margin-left: 40px;
+    display: inline-block;
+    width: 70%;
+    margin-top: 20px;
+    
+}
+
+.table__games td{
+    position: relative;
+    width: 50%;
+}
+
+.container__imagenes{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    float: left;  
+}
+
+.container__playstation__img{
+    border: 1px solid #999;
+    width:150px;
+    height:150px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    transition: all .3s ease-in-out;
+}
+
+.container__descripcion{
+    margin: 15px 10px;
+    max-width: 400px;
+}
+
+.container__descripcion a{
+    text-decoration: none;
+    color: #fff; 
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;  
+}
+
+.container__descripcion a:hover{
+    text-decoration: underline;
+    text-shadow: 0 0 5px #FFF, 0 0 5px #FFF, 0 0 7px #FFF, 0 0 10px #b41414, 0 0 15px #c41414, 0 0 20px #ce1919, 0 0 27px #8f0b0b, 0 0 33px #c71d11;
+}
+
+.container__calendario{
+    color: #fff;
+    font-size: .7em;
+    position: relative; 
+    margin-top: 12%;
+    margin-left: 36%;
+}
+
+.container__calendario__2{
+    color: #fff;
+    font-size: .7em;
+    position: relative; 
+    margin-top: 19%;
+    margin-left: 36%;
+
+}
+
+.container__calendario__img{
+    width: 5%;
+    height: auto;
+}
+
+
+.container__playstation__img:hover{
+
+    border: 1px solid black;
+    transform: scale(1.03);
+}
+
+
+

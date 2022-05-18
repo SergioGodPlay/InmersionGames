@@ -13,12 +13,26 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Libre+Baskerville:ital@1&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100&family=Lato:wght@100;400&family=Libre+Baskerville:ital@0;1&family=Permanent+Marker&family=Work+Sans&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
 
 <div class="container-body">
+
+  <!-- Etiqueta de los Ultimos Juegos Agregados-->
+  <div class="ultimos__agregados">
+
+    <p>Ultimos Juegos Agregados</p>
+
+  </div>
+
+  <!-- Botones de Movimiento-->
+  <div class="slider__btn slider__btn--right btn-outline-success" id="btn-right" (click)="moveRight()">&#62;</div>
+  <div class="slider__btn slider__btn--left btn-outline-success" id="btn-left" (click)="moveLeft()">&#60;</div>
+
+  <!-------------------------->
   
   <div class="container-slider">
 
@@ -105,59 +119,17 @@
         </a>
 
       </div>
-
-        <div class="slider__btn slider__btn--right btn-dark" id="btn-right" (click)="moveRight()">&#62;</div>
-        <div class="slider__btn slider__btn--left btn-dark" id="btn-left" (click)="moveLeft()">&#60;</div>
-          
-      </div>
+    
+    </div>
 
   </div>
 
-  <!-- Cuadro de Busqueda -->
-  <form action="#" class="form__search">
-
-    <div class="form-group form-input">
-
-      <input type="text" placeholder="Nombre del Juego" class="form-control">
-  
-    </div>
-
-    <div class="form-group form-input">
-
-      <select class="form-control form-select">
-        <option>Todas las Categorias</option>
-        <option>PlayStation 1</option>
-        <option>PlayStation 2</option>
-        <option value="">PlayStation 3</option>
-        <option value="">Nintendo DS</option>
-        <option value="">Nintendo Switch</option>
-      </select>
-    </div>
-
-    <div class="form-group">
-
-      <input type="submit" value="Buscar" class="btn btn-primary">
-
-    </div>
-
-  </form>
-  
-
-  <!-- Etiqueta de los Ultimos Juegos Agregados-->
-  <div class="ultimos__agregados">
-
-      <p>Ultimos Juegos Agregados</p>
-  
-  </div>
-
- 
   <div class="container__titulos">
 
       <p class="titulos_juegos">PLAYSTATION 1</p>
       
   </div>
 
-   
   <!-- Tabla de los juegos de Playstation 1-->
   <table class="table__games">
     <tr>
@@ -169,8 +141,6 @@
 
             <img class="container__playstation__img" src="./assets/imagenes/juegos_playstation/ps1/bugs.jpg">
 
-            <div class="etiqueta">PLAYSTATION 1</div>
-            
           </a>
 
         </div>
@@ -182,6 +152,14 @@
             Bugs Bunny Perdido En El Tiempo [PS1] [ESPAÑOL] [MEDIAFIRE]
 
           </a>
+
+          <div class="container__calendario">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            4 May / <a href="#">2 comentarios</a>
+
+          </div>
 
         </div>
 
@@ -195,8 +173,6 @@
 
             <img class="container__playstation__img" src="./assets/imagenes/juegos_playstation/ps1/bugsytaz.jpg">      
 
-            <div class="etiqueta">PLAYSTATION 1</div>
-
           </a>
 
         </div>
@@ -208,6 +184,14 @@
             Bugs Bunny y Taz En El Espiral Del Tiempo [PS1] [ESPAÑOL] [MEGA]
 
           </a>
+
+          <div class="container__calendario">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            5 Sep / <a href="#">4 comentarios</a>
+
+          </div>
       
         </div>
 
@@ -225,8 +209,6 @@
 
             <img class="container__playstation__img" src="./assets/imagenes/juegos_playstation/ps1/crash_3.jpg">
 
-            <div class="etiqueta">PLAYSTATION 1</div>
-            
           </a>
 
         </div>
@@ -239,6 +221,14 @@
 
           </a>
 
+          <div class="container__calendario__2">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            8 Jul / <a href="#">0 comentarios</a>
+
+          </div>
+
         </div>
 
       </td>
@@ -249,9 +239,7 @@
 
           <a href="#">
 
-            <img class="container__playstation__img" src="./assets/imagenes/juegos_playstation/ps1/resident_evil_2.png">      
-
-            <div class="etiqueta">PLAYSTATION 1</div>
+            <img class="container__playstation__img" src="./assets/imagenes/juegos_playstation/ps1/resident_evil_2.png">       
 
           </a>
 
@@ -264,12 +252,22 @@
             Resident Evil 2 [PS1] [ESPAÑOL] [MEDIAFIRE]
 
           </a>
+
+          <div class="container__calendario__2">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            18 Jul / <a href="#">3 comentarios</a>
+
+          </div>
       
         </div>
 
       </td>
     </tr>
   </table>
+
+   
 
   <br><br>
 
@@ -290,8 +288,6 @@
 
             <img class="container__playstation__2__img" src="./assets/imagenes/juegos_playstation/ps2/black.png">
 
-            <div class="etiqueta">PLAYSTATION 2</div>
-            
           </a>
 
         </div>
@@ -300,9 +296,17 @@
 
           <a href="#">
 
-            Black
+            Black [PS2] [MULTI] [TORRENT]
 
           </a>
+
+          <div class="container__calendario__ps2">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            2 May / <a href="#">8 comentarios</a>
+
+          </div>
 
         </div>
 
@@ -316,8 +320,6 @@
 
             <img class="container__playstation__2__img" src="./assets/imagenes/juegos_playstation/ps2/godofwar2.jpg">      
 
-            <div class="etiqueta">PLAYSTATION 2</div>
-
           </a>
 
         </div>
@@ -329,6 +331,14 @@
             God Of War 2 [PS2] [MULTI] [MEDIAFIRE]
 
           </a>
+
+          <div class="container__calendario__ps2">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            15 May / <a href="#">1 comentario</a>
+
+          </div>
       
         </div>
 
@@ -345,9 +355,7 @@
           <a href="#">
 
             <img class="container__playstation__2__img" src="./assets/imagenes/juegos_playstation/ps2/shadow_of_the_colossus.jpg">
-
-            <div class="etiqueta">PLAYSTATION 2</div>
-            
+     
           </a>
 
         </div>
@@ -359,6 +367,14 @@
             Shadow Of The Colossus [PS2] [MULTI] [MEGA]
 
           </a>
+
+          <div class="container__calendario__ps2">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            15 Ago / <a href="#">4 comentarios</a>
+
+          </div>
 
         </div>
 
@@ -372,8 +388,6 @@
 
             <img class="container__playstation__2__img" src="./assets/imagenes/juegos_playstation/ps2/spartan.jpg">      
 
-            <div class="etiqueta">PLAYSTATION 2</div>
-
           </a>
 
         </div>
@@ -385,6 +399,14 @@
             Spartan Total Warrior [PS2] [MULTI] [TORRENT]
 
           </a>
+
+          <div class="container__calendario__ps2">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            2 Ene / <a href="#">3 comentarios</a>
+
+          </div>
       
         </div>
 
@@ -411,8 +433,6 @@
 
             <img class="container__playstation__img" src="./assets/imagenes/juegos_nintendo/nintendo_ds/mario-party.jpg">
 
-            <div class="etiqueta">NINTENDO DS</div>
-            
           </a>
 
         </div>
@@ -424,6 +444,14 @@
             Mario Party DS [NDS] [MULTI] [MEGA]
 
           </a>
+
+          <div class="container__calendario__2">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            15 Nov / <a href="#">6 comentarios</a>
+
+          </div>
 
         </div>
 
@@ -437,8 +465,6 @@
 
             <img class="container__playstation__img" src="./assets/imagenes/juegos_nintendo/nintendo_ds/zelda.jpg">      
 
-            <div class="etiqueta">NINTENDO DS</div>
-
           </a>
 
         </div>
@@ -450,6 +476,14 @@
             The Legend Of Zelda Spirit Tracks [NDS] [MULTI] [ZIPPYSHARE]
 
           </a>
+
+          <div class="container__calendario">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            15 Jun / <a href="#">0 comentarios</a>
+
+          </div>
       
         </div>
 
@@ -467,8 +501,6 @@
 
             <img class="container__playstation__img" src="./assets/imagenes/juegos_nintendo/nintendo_ds/mario.jpg">
 
-            <div class="etiqueta">NINTENDO DS</div>
-            
           </a>
 
         </div>
@@ -481,6 +513,14 @@
 
           </a>
 
+          <div class="container__calendario__2">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            7 May / <a href="#">4 comentarios</a>
+
+          </div>
+
         </div>
 
       </td>
@@ -492,9 +532,6 @@
           <a href="#">
 
             <img class="container__playstation__img" src="./assets/imagenes/juegos_nintendo/nintendo_ds/caratula-mario-y-luigi-bowser.png">      
-
-            <div class="etiqueta">NINTENDO DS</div>
-
           </a>
 
         </div>
@@ -506,6 +543,14 @@
             Mario Y Luigi Bowser Inside Story [NDS] [MULTI] [TORRENT]
 
           </a>
+
+          <div class="container__calendario">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            15 May / <a href="#">1 comentario</a>
+
+          </div>
       
         </div>
 
@@ -532,8 +577,6 @@
 
             <img class="container__switch__img" src="./assets/imagenes/juegos_nintendo/nintendo_switch/super_mario_odyssey.png">
 
-            <div class="etiqueta">NINTENDO SWITCH</div>
-            
           </a>
 
         </div>
@@ -545,6 +588,14 @@
            Super Mario Odyssey [SWITCH] [MULTI] [MEGA]
 
           </a>
+
+          <div class="container__calendario__switch">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            2 Feb / <a href="#">4 comentarios</a>
+
+          </div>
       
         </div>
       
@@ -557,9 +608,7 @@
           <a href="#">
 
             <img class="container__switch__img" src="./assets/imagenes/juegos_nintendo/nintendo_switch/zelda switch.jpg">
-
-            <div class="etiqueta">NINTENDO SWITCH</div>
-            
+      
           </a>
 
         </div>
@@ -571,6 +620,14 @@
            The Legend Of Zelda Breath of The Wild [SWITCH] [MULTI] [TORRENT]
 
           </a>
+
+          <div class="container__calendario__switch__3">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            13 Dic / <a href="#">4 comentarios</a>
+
+          </div>
       
         </div>
       
@@ -587,9 +644,7 @@
           <a href="#">
 
             <img class="container__switch__img" src="./assets/imagenes/juegos_nintendo/nintendo_switch/zelda_skyward-sword.jpg">
-
-            <div class="etiqueta">NINTENDO SWITCH</div>
-            
+   
           </a>
 
         </div>
@@ -601,6 +656,14 @@
            The Legend Of Zelda Skyward Sword HD [SWITCH] [MULTI] [MEGA]
 
           </a>
+
+          <div class="container__calendario__switch__3">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            17 Ago / <a href="#">2 comentarios</a>
+
+          </div>
       
         </div>
       
@@ -613,9 +676,7 @@
           <a href="#">
 
             <img class="container__switch__img" src="./assets/imagenes/juegos_nintendo/nintendo_switch/luigis-mansion-3.jpg">
-
-            <div class="etiqueta">NINTENDO SWITCH</div>
-            
+    
           </a>
 
         </div>
@@ -627,6 +688,14 @@
            Luigi's Mansion 3 [SWITCH] [ESPAÑOL] [TORRENT]
 
           </a>
+
+          <div class="container__calendario__switch">
+
+            <img class="container__calendario__img" src="./assets/fondo/fecha-limite.png">
+
+            14 May / <a href="#">2 comentarios</a>
+
+          </div>
       
         </div>
       

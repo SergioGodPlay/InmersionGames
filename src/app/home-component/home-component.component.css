@@ -13,31 +13,33 @@ body{
 }
 
 .container-body{
-    max-width: 80%;
-    background-color: rgb(49,49,49);
+    max-width: 90%;
+    background: #232323;
     margin: auto;
     box-shadow: 0px 8px 11px 9px #000000;
+    margin-top: 20px;
 }
 
 .container-slider{
-    margin-left: 100px;
-    width: 80%;
+    width: 90%;
 
     box-shadow: 0 0 0 10px #fff
                 0 15px 50px;
-    position:sticky;   
-    display: inline-block;
+                  
+    display: flex;
+    position: relative;
     overflow: hidden;
+    margin: 20px 0px;
 }
 
 .form__search{
     position: relative;
-    width: max-content;
-    display: flex;
-    margin: 55px 20px;
-    clear: right;
+    width: content;
+    display: block;
     padding: 15px;
     border: 1px solid black;
+    margin-right: 70px;
+    float: right;
 }
 
 .form-group{
@@ -55,8 +57,7 @@ body{
 
 .slider{
     display: flex;
-    width: 90%;
-    margin: auto;
+    margin-left: 10%;
 }
 
 .slider__section{
@@ -64,8 +65,6 @@ body{
     width: 220px;
     height: auto;
     transition: all .9s ease;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .slider__section:hover{
@@ -80,14 +79,14 @@ body{
     background-size: 100% 100%;
     background-repeat:no-repeat;
     background-size: cover;
-    z-index: 10;
+    z-index: 10; 
 }
 
 .slider__btn{
     position: absolute;
     width: 40px;
     height: 40px;
-    transform: translateY(-50%);
+    transform: translateY(-110%);
     font-size: 30px;
     font-weight: bold;
     font-family: monospace;
@@ -95,42 +94,42 @@ body{
     cursor: pointer;
     z-index: 50;
     transition: all .3s ease-in-out;
-    opacity: 0.7;
-    top: 50%;
-
+    top: 44%;
 }
 
-.slider__btn:hover{
+/*.slider__btn:hover{
     border: 1px solid white;
-    transform: scale(1.2);
-    top: 42%;
-    opacity: 1;
-}
+    transform: scale(1.05);
+    top: 36%;
+}*/
 
 .slider__btn--left{
-    left: 7%;
+    left: 11%;
     margin: auto;
     text-align: center;
 }
-
 
 .slider__btn--right{
-    right: 8px;
-    margin: auto;
+    right: 11%;
     text-align: center;
+    margin: auto;
 }
 
 
-td{
+.table__games td{
     position: relative;
+    width: 50%;
 }
 
 .ultimos__agregados{
     margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: 'Permanent Marker', cursive;
     font-size: 2em;
     display: inline-block;
-    color: #fff;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
 }
 
 .container_titulos{
@@ -146,6 +145,7 @@ td{
     font-weight: bold;
     margin-left: 40px;
     color: #fff;
+    text-shadow: 0 0 5px #FFF, 0 0 5px #FFF, 0 0 7px #FFF, 0 0 10px #2414b4, 0 0 15px #183bff, 0 0 20px #110fa7, 0 0 27px #0b0d8f, 0 0 33px #0c0f9c;
 }
 
 .fondo_imagen_titulos{
@@ -154,25 +154,58 @@ td{
     position: absolute;
 }
 
-.etiqueta{
-    position: absolute;
-    top: 15px;
-    left: -90px;
-    color: #fff;
-    font-weight: bold;
-    background-color: rgba(14, 64, 228, 0.8);
-    text-transform: uppercase;
-    text-align: center;
-    padding: 3px 5px;
-    font-size: 0.7em;
-    visibility: hidden;
-}
-
 .container__imagenes{
     width: 150px;
     height: auto;
     margin: 10px;
     float: left;  
+}
+
+.container__calendario{
+    color: #fff;
+    font-size: .7em;
+    position: relative; 
+    margin-top: 12%;
+    margin-left: 36%;
+}
+
+.container__calendario__2{
+    color: #fff;
+    font-size: .7em;
+    position: relative; 
+    margin-top: 19%;
+    margin-left: 36%;
+
+}
+
+.container__calendario__ps2{
+    color: #fff;
+    font-size: .7em;
+    position: relative; 
+    margin-top: 30%;
+    margin-left: 36%;
+
+}
+
+.container__calendario__switch{
+    color: #fff;
+    font-size: .7em;
+    position: relative; 
+    margin-top: 37%;
+    margin-left: 36%;
+}
+
+.container__calendario__switch__3{
+    color: #fff;
+    font-size: .7em;
+    position: relative; 
+    margin-top: 32%;
+    margin-left: 36%;
+}
+
+.container__calendario__img{
+    width: 5%;
+    height: auto;
 }
 
 .container__playstation__img{
@@ -208,20 +241,21 @@ td{
 }
 
 .container__descripcion{
-    margin: 10px;
-    width: 350px;
-    height: 150px;
-    
+    margin: 15px 10px;
+    max-width: 400px;
 }
 
 .container__descripcion a{
     text-decoration: none;
-    color: #fff;
+    color: #fff; 
     position: relative;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;  
 }
 
 .container__descripcion a:hover{
     text-decoration: underline;
+    text-shadow: 0 0 5px #FFF, 0 0 5px #FFF, 0 0 7px #FFF, 0 0 10px #b41414, 0 0 15px #c41414, 0 0 20px #ce1919, 0 0 27px #8f0b0b, 0 0 33px #c71d11;
 }
 
 
@@ -243,9 +277,12 @@ td{
 }
 
 .table__games{
-    border: 1px solid black;
+    border: 1px solid #fff;
     margin-left: 40px;
-    border-radius: 20px !important;
+    display: inline-block;
+    width: 70%;
+    
 }
+
 
 

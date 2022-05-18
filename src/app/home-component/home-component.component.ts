@@ -1,4 +1,6 @@
-import { Component, ElementRef, OnInit, ViewChild, VERSION } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output} from '@angular/core';
+
+
 
 
 @Component({
@@ -9,22 +11,13 @@ import { Component, ElementRef, OnInit, ViewChild, VERSION } from '@angular/core
 
 export class HomeComponentComponent implements OnInit {
 
-  contador:number = 0;
-
   constructor() { 
 
-    
-    
   }
 
   ngOnInit(): void {
 
-    //setInterval(this.moveRight, 3000);
-
   }
-
-
-  
 
   moveRight(){
 
