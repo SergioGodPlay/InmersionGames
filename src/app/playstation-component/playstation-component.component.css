@@ -16,7 +16,7 @@ body{
     max-width: 87%;
     background: #232323;
     margin: auto;
-    box-shadow: 0px 8px 11px 9px #000000;
+    box-shadow: 0px 4px 14px 5px #000000;
     margin-top: 20px;
 }
 
@@ -216,6 +216,10 @@ hr{
 
     border: 1px solid black;
     transform: scale(1.03);
+}
+
+ul li{
+    color: #fff;
 }
 
 

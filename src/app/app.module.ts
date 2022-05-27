@@ -11,6 +11,7 @@ import { NintendoComponentComponent } from './nintendo-component/nintendo-compon
 import { XboxComponentComponent } from './xbox-component/xbox-component.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PcComponentComponent } from './pc-component/pc-component.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { PcComponentComponent } from './pc-component/pc-component.component';
     NintendoComponentComponent,
     XboxComponentComponent,
     PcComponentComponent,
+    FooterComponentComponent,
   ],
 
   imports: [
